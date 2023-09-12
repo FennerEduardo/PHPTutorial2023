@@ -1,0 +1,23 @@
+{
+    "name": "phptutorial/tutorial",
+    "type": "project",
+    "description": "Test project.",
+    "keywords": [
+        "test",
+        "php"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fenner Eduardo",
+            "email": "fennereduardo@gmail.com",
+            "homepage": "https://fennereduardo.com",
+            "role": "CTO"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
