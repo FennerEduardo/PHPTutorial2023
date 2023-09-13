@@ -4,7 +4,10 @@ namespace App\traits;
 
 trait MyTrait {
 
-    public function hablar() {
+    /**
+     * Imprime hablar
+     */
+    public function hablar():void {
         echo 'Estoy hablando desde el trait 1';
     }
     
